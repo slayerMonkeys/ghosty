@@ -1,0 +1,8 @@
+
+.idea/
+
+build/
+
+node_modules/
+
+src/config/setting.yml

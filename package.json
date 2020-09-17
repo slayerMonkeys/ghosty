@@ -1,0 +1,41 @@
+{
+  "name": "ghosty",
+  "main": "main.js",
+  "version": "1.0.0",
+  "scripts": {
+    "build:gulp": "gulp build",
+    "watch:gulp": "gulp watch",
+    "serve:gulp": "gulp serve",
+    "start:gulp": "gulp start",
+    "serve": "npm run serve:gulp -s",
+    "watch": "npm run watch:gulp -s",
+    "build": "npm run build:gulp -s",
+    "start": "npm run start:gulp -s"
+  },
+  "author": "SlayerMonkey",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^4.1.0",
+    "del": "^5.1.0",
+    "discord.js": "^12.2.0",
+    "erela.js": "^1.1.8",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.6",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "klaw": "^3.0.0",
+    "moment": "^2.27.0",
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/yamljs": "^0.2.31",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
